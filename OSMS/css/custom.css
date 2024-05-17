@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-brand{
+font-family: 'Ubuntu', sans-serif;
+font-size:2em;
+font-weight: bold;;
+}
+/* change navigation color*/
+.navbar #myMenu .custom-nav .nav-item a{
+    color:rgb(255, 240, 240);
+} 
+.navbar #myMenu .custom-nav .nav-item a:hover{
+    background-color:rgb(65, 59, 59);
+    border-radius: 20px;
+} 
+a:active{
+    background-color:rgb(65, 59, 59);
+    border-radius: 20px;
+}
+/* image responsive*/
+image{
+    opacity: 0.4;
+}
+.back-image{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    border-radius: 0px;
+    margin-top: 74px;
+}
+.img-text{
+    margin-top: 10em;
+    
+}
+.fi-color{
+    color:rgb(250, 12, 12);
+}
+.fi-color:hover{
+    margin-top: 50px;
+}
